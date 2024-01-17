@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Modelo Recuperatorio Parcial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- AGREGAR ARCHIVOS JS AQUI -->
+  <script src="FRONTEND/clases/Auto.js"></script>
+  <script src="FRONTEND/clases/AutoBD.js"></script>
+  <script src="FRONTEND/clases/Manejadora.js"></script>
+
+
+</head>
+
+<body style="background-color:darkgrey">
+ <br>
+  <div class="container" style="background-color:rgb(127, 42, 173)">
+    <br>
+    <h2 style="background-color:rgba(86, 217, 229, 0.696);color:rgb(0, 0, 0)">Real Agustin</h2>
+
+    <h4>ABM - Notebook</h4>
+
+      <table class="table table" style="width:95%">
+        <tr>
+          <td style="width:50%">
+            <table class="table table-bordered table-hover" style="background-color:rgba(86, 217, 229, 0.696)">
+              <tr>
+                <td><label class="col control-label">Id</label></td>
+                <td><input type="text" id="txtIdBD" readonly /></td>
+              </tr>
+              <tr>
+                <td><label class="col control-label">Patente</label></td>
+                <td><input type="text" id="txtPatenteBD" /></td>
+              </tr>
+              <tr>
+                <td><label class="col control-label">Marca</label></td>
+                <td><input type="text" id="txtMarcaBD" /></td>
+              </tr>
+              <tr>
+                <td><label class="col control-label">Color</label></td>
+                <td><input type="text" id="txtColorBD" /></td>
+              </tr>
+              <tr>
+                <td><label class="col control-label">Precio</label></td>
+                <td><input type="number" id="txtPrecioBD" /></td>
+              </tr>
+
+              <tr>
+                <td colspan="2" class="col">
+                  <input type="button" value="Agregar" id="btn-agregarBD" class="btn btn-success"  onclick="PrimerParcial.Manejadora.AgregarAutoSinFoto()"/>
+                  <input type="button" value="Mostrar" id="btn-mostrarBD" class="btn btn-info"  onclick="PrimerParcial.Manejadora.MostrarAutosBD()"/>    
+                  <input type="button" value="Modificar" id="btn-modificarBD" class="btn btn-dark"  onclick="new PrimerParcial.Manejadora().ModificarAuto()"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <div class="" style="background-color:rgba(86, 217, 229, 0.696);">
+              <div id="divTabla">
+                tabla aqu&iacute;...
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    <input type="hidden" id="hdnIdModificacion">
+    
+  </div>
+</body>
+
+</html>

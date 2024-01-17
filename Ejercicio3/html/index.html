@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./clases/persona.js"></script>
+    <script src="./clases/empleado.js"></script>
+    <script src="./manejador.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/Laboratorio%20III/Ejercicio3/administracion.php" method="post">
+    <input type="text" name="nombre" id="txtNombre" placeholder="Nombre"/>
+    <input type="text" name="apellido" id="txtApellido" placeholder="Apellido"/>
+    <input type="text" name="dni" id="txtDni" placeholder="Dni"/>
+    <input type="text" name="sexo" id="txtSexo" placeholder="Sexo"/>
+    <input type="text" name="legajo" id="txtLegajo" placeholder="Legajo"/>
+    <input type="text" name="sueldo" id="txtSueldo" placeholder="Sueldo"/>
+    <input type="button" value="Crear empleado" onclick="Manejador.CrearEmpleado()">
+    </form>
+</body>
+</html>

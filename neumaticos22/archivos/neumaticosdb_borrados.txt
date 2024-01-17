@@ -1,0 +1,6 @@
+{"id":6,"marca":"Rosa","medidas":"853","precio":12.64,"pathFoto":"neumaticos\/imagenes\/Lili.225823.jpg"}
+{"id":6,"marca":"Rosa","medidas":"853","precio":12.64,"pathFoto":"neumaticos\/imagenes\/Lili.225823.jpg"}
+{"id":6,"marca":"Rosa","medidas":"853","precio":12.64,"pathFoto":"neumaticos\/imagenes\/Lili.225823.jpg"}
+{"id":10,"marca":"verde","medidas":"8520","precio":45.28,"pathFoto":"neumaticos\/imagenes\/verde.002525.jpg"}
+{"id":9,"marca":"violeta","medidas":"853","precio":45.28,"pathFoto":"neumaticos\/imagenes\/violeta.002504.jpg"}
+{"id":13,"marca":"gugus","medidas":"654","precio":45.28,"pathFoto":"neumaticos\/imagenes\/gugus.005655.jpg"}
